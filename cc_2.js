@@ -3,14 +3,14 @@
 let products = ["Computer", "Soap", "Body Wash", "Nail Polish", "Shoes"]; // Products within the array
 products.push("Flashlight");// Adds a new product
 products.pop();// Removes the product that is last within the array
-console.log("UpdatedProducts");
+console.log(products);
 
 //Task 2- Student Scores
 
 letscore = [100,200, 300, 400,500 ]; // scores within the array
 scores[1] = 77; // Updating the 2nd score
 const averageScore = calculateAverage(scores);// Calculate the average score
-console.log ("Scores updated:, scores");
+console.log ("Scores with updates:, scores");
 console.log ("All score average:", average);
 
 //Task 3-Employee Records
@@ -35,4 +35,13 @@ let customers = [
 customers.push({name: "Bill France", email: "billfrance@gmail.com", purchaseAmount: 567});
 console.log(customers); 
 
+//Task 5- Order Processing System
+let order = { 
+    orderID: "717",
+    customerName: "Hannah Edwards",
+    amount: 700,
+};// object order details
 
+let taxAmount = calculateTax(700, .10)// tax amount details
+console.log(order)
+console.log(taxAmount)
