@@ -37,7 +37,7 @@ console.log(customers);
 
 //Task 5- Order Processing System
 let order = { 
-    orderID: "717",
+    orderID: 717,
     customerName: "Hannah Edwards",
     amount: 700,
 };// object order details
